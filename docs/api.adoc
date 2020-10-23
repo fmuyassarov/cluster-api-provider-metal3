@@ -109,7 +109,7 @@ This object contains all information related to the control plane
 configuration. It references an *infrastructureTemplate* that must be a
 _Metal3MachineTemplate_ in this case.
 
-For example:
+For example: 
 
 [source,yaml, subs="verbatim,macros"]
 ----

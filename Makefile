@@ -527,3 +527,11 @@ verify-modules: modules
 	@if !(git diff --quiet HEAD -- go.sum go.mod hack/tools/go.mod hack/tools/go.sum); then \
 		echo "go module files are out of date"; exit 1; \
 	fi
+
+## --------------------------------------
+## Asciidoc/book commands
+## --------------------------------------
+
+PHONY: build-book
+build-book:
+	./hack/asciidoc.sh

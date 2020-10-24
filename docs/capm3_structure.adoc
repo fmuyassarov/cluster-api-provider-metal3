@@ -1,0 +1,13 @@
+= Cluster-api-provider-metal3
+:toc: left
+:sectnums:
+
+include::getting-started.adoc[]
+
+include::dev-setup.adoc[]
+
+include::api.adoc[]
+
+include::testing.adoc[]
+
+include::deployment_workflow.adoc[]

@@ -1,4 +1,4 @@
-= Cluster-api-provider-metal3
+= *CLUSTER-API-PROVIDER-METAL3*
 :toc: left
 :sectnums:
 
